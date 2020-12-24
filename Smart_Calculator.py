@@ -1,7 +1,5 @@
 from tkinter import *
 
-
-
 # For mathematical functions
 
 def add(a,b):
@@ -27,7 +25,6 @@ def hcf(a,b):
         if a%h == 0 and b%h ==0:
             return h
         h-=1
-
 
 
 # Extract number from list
@@ -72,7 +69,6 @@ operations = {'ADD':add , 'ADDITION':add , 'SUM':add , 'PLUS':add ,
 
 
 
-
 win  = Tk()
 win.geometry('500x300')
 win.title('Smart Calculator')
@@ -98,21 +94,5 @@ b1.place(x=210,y=190)
 
 list = Listbox(win,width=40,height = 3)
 list.place(x=120,y = 230)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 win.mainloop()
